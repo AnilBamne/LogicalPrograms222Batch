@@ -22,8 +22,12 @@ namespace LogicalPrograms222Batch
                     PerfectNumber perfectNumber = new PerfectNumber();
                     perfectNumber.checkPerfect();
                     break;
-                
-                
+                case 3:
+                    PrimeNumber primeNumber = new PrimeNumber();
+                    primeNumber.isPrimeNum();
+                    break;
+
+
                 default:
                     break;
             }
