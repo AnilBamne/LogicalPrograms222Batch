@@ -19,7 +19,8 @@ namespace LogicalPrograms222Batch
                     series.fibonacciSeries();
                     break;
                 case 2:
-                   
+                    PerfectNumber perfectNumber = new PerfectNumber();
+                    perfectNumber.checkPerfect();
                     break;
                 
                 
