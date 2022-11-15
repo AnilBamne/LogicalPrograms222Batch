@@ -10,7 +10,7 @@ namespace LogicalPrograms222Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logiocal Programs");
-            Console.WriteLine("Select the Program to execute\n\n1:Fibonacci Series\n2:Perfect Number\n3:Prime Number\n4:Reverse a number\n5:Coupon Numbers\n6:Simulate Stopwatch Program\n ");
+            Console.WriteLine("Select the Program to execute\n\n1:Fibonacci Series\n2:Perfect Number\n3:Prime Number\n4:Reverse a number\n5:Simulate Stopwatch Program\n6:Coupon Numbers\n ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -29,6 +29,10 @@ namespace LogicalPrograms222Batch
                 case 4:
                     ReverseNumber reverseNumber = new ReverseNumber();
                     reverseNumber.revNum();
+                    break;
+                case 5:
+                    StopwatchProgram stopwatch = new StopwatchProgram();
+                    stopwatch.stopWatch();
                     break;
                 default:
                     break;
