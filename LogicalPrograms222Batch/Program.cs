@@ -26,8 +26,10 @@ namespace LogicalPrograms222Batch
                     PrimeNumber primeNumber = new PrimeNumber();
                     primeNumber.isPrimeNum();
                     break;
-
-
+                case 4:
+                    ReverseNumber reverseNumber = new ReverseNumber();
+                    reverseNumber.revNum();
+                    break;
                 default:
                     break;
             }
