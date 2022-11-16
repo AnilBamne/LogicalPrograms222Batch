@@ -5,8 +5,6 @@ namespace LogicalPrograms222Batch
 {
     internal class Program
     {
-       
-
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logiocal Programs");
@@ -34,10 +32,13 @@ namespace LogicalPrograms222Batch
                     StopwatchProgram stopwatch = new StopwatchProgram();
                     stopwatch.stopWatch();
                     break;
+                case 6:
+                    CouponNumberProgram couponNumberProgram = new CouponNumberProgram();
+                    couponNumberProgram.Coupon();
+                    break;
                 default:
                     break;
             }
-            Console.WriteLine("**************************");
 
         }
     }

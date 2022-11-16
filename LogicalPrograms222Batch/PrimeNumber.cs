@@ -10,10 +10,12 @@ namespace LogicalPrograms222Batch
     {
         public void isPrimeNum()
         {
+            //variables
             int n, i, m = 0, flag = 0;
             Console.Write("Enter the Number to check Prime: ");
             n = int.Parse(Console.ReadLine());
             m = n / 2;
+            //computatin
             for (i = 2; i <= m; i++)
             {
                 if (n % i == 0)

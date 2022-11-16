@@ -13,7 +13,7 @@ namespace LogicalPrograms222Batch
             Console.WriteLine("Enter a number to check it is perfect ?");
             int num = Convert.ToInt32(Console.ReadLine());
             int sum = 0;
-
+            //computation
             for (int i = 1; i < num; i++)
             {
                 if (num % i == 0)

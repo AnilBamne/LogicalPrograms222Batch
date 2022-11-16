@@ -10,9 +10,12 @@ namespace LogicalPrograms222Batch
     {
         public void fibonacciSeries()
         {
+            //Variable declartion
             int firstNumber = 1, SecondNumber = 2, nextNumber, numberOfElements;
+            //Taking user input
             Console.Write("Enter the number of elements to Print : ");
             numberOfElements = int.Parse(Console.ReadLine());
+            //computation
             if (numberOfElements < 2)
             {
                 Console.Write("Please Enter a number greater than two");
