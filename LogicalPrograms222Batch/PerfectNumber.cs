@@ -8,7 +8,7 @@ namespace LogicalPrograms222Batch
 {
     class PerfectNumber
     {
-        public void checkPerfect()
+        public void CheckPerfect()
         {
             Console.WriteLine("Enter a number to check it is perfect ?");
             int num = Convert.ToInt32(Console.ReadLine());

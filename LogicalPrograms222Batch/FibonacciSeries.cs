@@ -8,10 +8,10 @@ namespace LogicalPrograms222Batch
 {
     internal class FibonacciSeries
     {
-        public void fibonacciSeries()
+        public void Fibonacci()
         {
             //Variable declartion
-            int firstNumber = 1, SecondNumber = 2, nextNumber, numberOfElements;
+            int firstNumber = 0, SecondNumber = 1, nextNumber, numberOfElements;
             //Taking user input
             Console.Write("Enter the number of elements to Print : ");
             numberOfElements = int.Parse(Console.ReadLine());

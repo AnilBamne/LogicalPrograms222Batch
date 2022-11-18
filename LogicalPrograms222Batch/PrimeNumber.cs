@@ -8,17 +8,16 @@ namespace LogicalPrograms222Batch
 {
     internal class PrimeNumber
     {
-        public void isPrimeNum()
+        public void IsPrimeNum()
         {
             //variables
-            int n, i, m = 0, flag = 0;
+            int nunber, flag = 0;
             Console.Write("Enter the Number to check Prime: ");
-            n = int.Parse(Console.ReadLine());
-            m = n / 2;
+            nunber = int.Parse(Console.ReadLine());
             //computatin
-            for (i = 2; i <= m; i++)
+            for (int i = 2; i <= nunber/2; i++)
             {
-                if (n % i == 0)
+                if (nunber % i == 0)
                 {
                     Console.WriteLine("Number is not Prime.");
                     flag = 1;

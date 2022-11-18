@@ -17,11 +17,11 @@ namespace LogicalPrograms222Batch
             int Number = int.Parse(Console.ReadLine());
             //defining integer array to store distinct coupon numbers
             int[] CouponNumbers = new int[Number];
-            Random r = new Random();
+            Random random = new Random();
             //computation
             for (int i = 0; i < Number; i++)
             {
-                int newNum=r.Next(1,25);
+                int newNum= random.Next(1,25);
                 count++;
                 if (CouponNumbers.Contains(newNum))
                 {

@@ -9,7 +9,7 @@ namespace LogicalPrograms222Batch
 {
     internal class StopwatchProgram
     {
-        public void stopWatch()
+        public void StopWatch()
         {
             //calling inbuilt stopwatch class
             Stopwatch s = new Stopwatch();

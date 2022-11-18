@@ -8,7 +8,7 @@ namespace LogicalPrograms222Batch
 {
     internal class ReverseNumber
     {
-        public  void revNum()
+        public  void RevNum()
         {
             //variables
             int rev = 0;
