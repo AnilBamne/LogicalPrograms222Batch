@@ -8,7 +8,8 @@ namespace LogicalPrograms222Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logiocal Programs");
-            Console.WriteLine("Select the Program to execute\n\n1:Fibonacci Series\n2:Perfect Number\n3:Prime Number\n4:Reverse a number\n5:Simulate Stopwatch Program\n6:Coupon Numbers\n-------\nNUnit Programs\n--------\n7:Day Of Week Program\n8:TemperaturConversion\n9:Monthly Payment ");
+            Console.WriteLine("Select the Program to execute\n\n1:Fibonacci Series\n2:Perfect Number\n3:Prime Number\n4:Reverse a number\n5:Simulate Stopwatch Program\n6:Coupon Numbers\n----" +
+                "---\nNUnit Programs\n--------\n7:Day Of Week Program\n8:TemperaturConversion\n9:Monthly Payment\n10:Vending machine ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -50,6 +51,8 @@ namespace LogicalPrograms222Batch
                     monthlyPayment.Monthlypayment();
                     break;
                 case 10:
+                    VendingMachine vendingMachine = new VendingMachine();
+                    vendingMachine.MinimumNotesCheck();
                     break;
 
                 default:
